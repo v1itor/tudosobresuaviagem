@@ -1,0 +1,121 @@
+.container{
+  padding: 1.5%;
+}
+
+.navbar {
+  background-image: url("images/estrelinha.jpg");
+  width: 100%;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#titulo {
+  margin-left: 50px;
+}
+
+.nav-link {
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.espacocontainer {
+  margin-top: 120px;
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.littletitle {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.indice {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content {
+  justify-content: center;
+}
+
+#pagcontato {
+  background-color: white;
+  color: black;
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#sobrenos {
+  margin-left: -110px;
+  margin-right: -14px;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+  background-color: rgb(14, 14, 24);
+  color: white;
+}
+.sobrenos {
+  display: flex;
+}
+
+.card-text {
+  color: black;
+  padding: 1px;
+}
+
+.card-title {
+  color: black;
+}
+
+.carousel {
+  margin-left: 1px;
+  margin-right: -110px;
+}
+
+h5 {
+  color: rgb(33, 150, 243);
+}
+
+.acordeao {
+  color: black;
+  font-family: -apple-system;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#table {
+  border: 70px;
+}
+
+.col-sm-4 {
+  width: 500px;
+  height: 300px;
+}

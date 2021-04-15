@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!-- início do cabeçalho -->
+  <title>TudoSobreSuaViagem</title> <!-- título -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+  <script src="./js/init.js"></script>
+  <script src="./js/entrar.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- linkagem do css do boostrap, utilizado para as bases do site -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon"> <!-- imagem que 
+  fica ao lado do título -->
+  <link rel="stylesheet" href="site.css">
+</head> <!-- fim do cabeçalho -->
+<body> <!-- início do corpo da página -->
+    <div class="espacocontainer"></div>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark"> <!-- barra de navegação fixa -->
+        <a class="navbar-brand" href="home.html"><img src="images/logo.png" width="120px" alt="" class=""></a> <!-- logo -->
+        <img class="img-fluid" src="images/titulo2.png" width="500px" alt="" class=""></a> <!-- logo -->
+        <ul class="navbar-nav"> <!-- ínicio dos itens da barra de navegação -->
+          <li class="nav-item"> <!-- item um -->
+              <a class="nav-link text-white" href="home.html">Home</a> <!-- redirecionador com texto -->
+          </li> <!-- fim do item um -->
+          <li class="nav-item"> <!-- item dois -->
+              <a class="nav-link text-white" href="contatos.html">Contatos</a> <!-- redirecionador com texto -->
+          </li> <!-- fim do item dois -->
+          <li class="nav-item"> <!-- item três -->
+            <a class="nav-link text-white" href="destinos.html">Entrar</a> <!-- redirecionador com texto -->
+        </li> <!-- fim do item três -->
+        </ul> <!-- fim dos itens da barra de navegação -->
+    </nav> <!-- fim da barra de navegação fixa -->
+    <div class="container" style="max-width: 35%; margin-top: 13%;">
+        <div class="alert alert-light" role="alert" style="border-radius:3%">
+            <img src="./images/avata.png" class="rounded-circle "style="width:200px;height:200px;margin: auto; display:block;">
+            <div class="form-group mt-5">
+              <label for="exampleInputEmail1">Email:</label>
+              <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Inisira seu email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Senha:</label>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Insira sua senha">
+            </div>
+            <button onclick="login()" type="submit" class="btn btn-dark mt-2">Entrar</button>
+        </div>
+    </div>
+    </body>
+    <!-- https://www.skyscanner.com.br/noticias/encante-se-com-7-maravilhas-do-mundo-moderno -->
